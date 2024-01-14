@@ -19,3 +19,11 @@ def iterative_max_subarray(A):
             high = currHigh
     
     return (low, high, maxSum)
+
+# Recursion
+# cut from mid -> divide and conquer
+# case 1: find max subarray of [left to mid]
+# case 2: find max subarray of [mid+1 to right]
+# But we're not consider cross-middle yet.
+# case 3: find max subarray from mid (to left and to right)
+# Answer: max(case 1, case 2, case 3)
