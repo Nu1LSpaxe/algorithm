@@ -19,6 +19,8 @@
       - [Combine](#combine)
     - [Running time analysis](#running-time-analysis)
 
+---
+
 ## Time Complexity
 
 $
